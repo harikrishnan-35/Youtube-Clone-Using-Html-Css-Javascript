@@ -1,0 +1,319 @@
+body{
+    padding:20px;
+}
+.vid1{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: var(--ytd-margin-6x);
+    
+   
+
+}
+.vid1 iframe{
+    border-radius: 10px;
+}
+h1{
+    padding-left: 30px;
+    padding-right: 20px;
+    border-radius: 25px;
+    padding-top:6px;
+}
+.killa img{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    position: relative;
+    right:0px;
+    left:20px;
+    padding-left: 2px;
+    z-index:2;
+
+}
+.killa{
+    display: flex;
+    
+}
+.killa h5{
+    padding: 10px;
+    padding-left:30px;
+    font-size: larger;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.sidebar{
+    padding-top:10px;
+    width:240px;
+    position: absolute;
+    z-index:1;
+    display: none;
+    background-color: white;
+    
+    
+
+}
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    cursor:pointer;
+    height:40px;
+    color:black;
+}
+.sidebar-item:hover{
+    background-color:whitesmoke;
+}
+.sidebar-item i{
+    margin-right:24px;
+}
+#logo-txt{
+    margin-right: 15px;
+    position: relative;
+    right:25px;
+}
+.header{
+    position: relative;
+    bottom:10px;
+}
+.sub p{
+    position: relative;
+    left:30px;
+    bottom:6px;
+}
+.subscribe-button{
+    display: flex;
+    margin-top: 20px;
+    margin-left:55px;
+    background-color: black;
+    height: 30px;
+    width:80px;
+    border-radius: 25px;
+    color: white;
+    font-size: small;
+    cursor: pointer;
+}
+.subscribe-button h3{
+    margin:auto;
+    cursor: pointer;
+}
+.like-button{
+    display: flex;
+    position: relative;
+    left:200px;
+    top:20px;
+    justify-items: center;
+
+    width:120px;
+    height:30px;
+    background-color:rgba(0, 0, 0, 0.118);
+    border-radius: 50px;
+}
+#up{
+    margin-left:5px;
+    position: relative;
+    bottom:2px;
+}
+#count{
+    margin-left: 8px;
+    margin-top:5px;
+    font-weight:lighter;
+   
+}
+#down{
+    margin-left:10px;
+    
+}
+.kambi{
+    height:100%;
+    margin-top: 5px;
+    margin-left:10px;
+}
+.share-button{
+    display: flex;
+    position: relative;
+    left:220px;
+    top:20px;
+    justify-items: center;
+
+    width:90px;
+    height:30px;
+    background-color:rgba(0, 0, 0, 0.118);
+    border-radius: 50px;
+}
+#share{
+    padding:2px;
+}
+#shar{
+    padding-top:5px;
+    padding-left:5px;
+    font-weight:bolder;
+}
+.download-button{
+    display: flex;
+    position: relative;
+    left:240px;
+    top:20px;
+    justify-items: center;
+
+    width:120px;
+    height:30px;
+    background-color:rgba(0, 0, 0, 0.118);
+    border-radius: 50px;
+    padding:3px;
+}
+
+#download{
+    margin-left:8px;
+    margin-top:3px;
+}
+#dow-btn{
+    margin-left:5px;
+    height:30%;
+}
+.ellipisis{
+    display: flex;
+    position: relative;
+    left:260px;
+    top:22px;
+    justify-items: center;
+    height:25px;
+    width:35px;
+    background-color:rgba(0, 0, 0, 0.118);
+    border-radius: 50px;
+    padding:3px;
+}
+#elipi{
+    margin-left:2px;
+    position: relative;
+    bottom:3px;
+
+
+}
+.side-video{
+    
+    width:400px;
+    height:1000px;
+    position: relative;
+    left:1060px;
+    top:45px;
+    
+}
+.small-chip{
+    display: flex;
+  
+    margin-right:10px;
+}
+.small-chips{
+    background-color: rgba(129, 128, 128, 0.233);
+    border-radius: 10px;
+    padding:5px;
+    margin-right:20px;
+  
+    height:30px;
+}
+#small-chips-all{
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 10px;
+    color: white;
+    width:40px;
+    height:25px;
+    padding-top:5px;
+    padding-left:10px;
+}
+
+.side-content{
+    margin-left:200px;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.side-videos .side-vid img{
+    height:110px;
+    width:190px;
+    margin-top:50px;
+    border-radius:5px;
+    margin-right:8px;
+  
+}
+.kekab-side{
+    display: flex;
+}
+.sid-keba{
+    margin-top:15px;
+    margin-left:20px;
+    size: 50%;
+
+}
+.side-content h5{
+    margin-bottom:3px;
+    font-size: smaller;
+}
+.side-content p{
+    font-size: smaller;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+#img-side{
+    position: relative;
+    top:-40px;
+    margin-top:10px;
+}
+.bell{
+    margin-top:20px;
+    margin-left:5px;
+    display: none;
+}
+.timer{
+    position: relative;
+    top:105px;
+    left:140px;
+    background-color: rgba(22, 22, 22, 0.896);
+    border-radius: 4px;
+    color:rgb(255, 251, 251);
+    
+   
+}
+#time{
+    margin:auto;
+    font-size: small;
+    margin-bottom:5px;
+    margin:2px;
+}
+#keka-sid{
+    position: relative;
+    top:-27px;
+}
+#keka-sid1{
+    position: relative;
+    top:-1px;
+}
+.timer1{
+    position: relative;
+    background-color: rgb(1, 1, 1);
+    height:px;
+
+    width:40px;
+    border-radius:4px;
+    top:100px;
+    left:140px;
+    font-size: large;
+    color:white;
+}
+#time1{
+    margin: auto;
+    color:white;
+}
+#slider{
+    position: relative;
+    top:-25px;
+}
+#slider1{
+    position: relative;
+    top:-30px;
+}
+#slider2{
+    position: relative;
+    top:-40px;
+}
